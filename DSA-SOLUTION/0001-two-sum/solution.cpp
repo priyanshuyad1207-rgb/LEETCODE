@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-using namespace std;
 
 class Solution {
 public:
@@ -17,12 +13,3 @@ public:
         return {};
     }
 };
-
-int main() {
-    Solution sol;
-    vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
-    vector<int> ans = sol.twoSum(nums, target);
-    cout << ans[0] << " " << ans[1] << endl;
-    return 0;
-}
