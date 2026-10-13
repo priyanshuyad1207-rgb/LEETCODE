@@ -1,3 +1,8 @@
+## 📌 Problem
+
+**LeetCode Problem:** [0009-Palindrome-Number](https://leetcode.com/problems/palindrome-number)
+
+
 📌 Problem Statement
 
 Given an integer x, return true if x is a palindrome, and false otherwise.
