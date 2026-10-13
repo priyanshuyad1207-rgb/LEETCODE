@@ -1,14 +1,21 @@
-// LeetCode 1009. Complement of Base 10 Integer
-// Problem: https://leetcode.com/problems/complement-of-base-10-integer/
-//
-// Placeholder C++ file. Implement the function `int bitwiseComplement(int n)` below.
+class Solution {
+public:
+    int bitwiseComplement(int n) {
+        int ans=0,rem,mul=1;
 
-#include <bits/stdc++.h>
-using namespace std;
-
-// TODO: implement solution
-
-int main() {
-    // Intentionally left blank — add tests or solution implementation here.
-    return 0;
-}
+        if(n==0){
+            return 1;
+        }
+        while(n){
+            rem=n%2;
+            rem=rem^1;
+            n=n/2;
+            ans=ans+mul*rem;
+            
+            mul=mul*2;
+            
+        }
+        return ans;
+        
+    }
+};
