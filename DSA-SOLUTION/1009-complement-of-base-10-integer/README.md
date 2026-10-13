@@ -4,7 +4,6 @@
 
 **LeetCode Problem:** [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)
 
-**Difficulty:** Easy
 
 ## 📝 Description
 
