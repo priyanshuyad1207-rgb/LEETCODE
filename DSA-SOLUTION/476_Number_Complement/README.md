@@ -1,6 +1,8 @@
 # 476. Number Complement
 
-🔗 **LeetCode Problem:** [Number Complement](https://leetcode.com/problems/number-complement/)
+## 📌 Problem
+
+**LeetCode Problem:** [0476-Number-Complement](https://leetcode.com/problems/complement-of-base-10-integer/)
 
 ## 📌 Problem Description
 
