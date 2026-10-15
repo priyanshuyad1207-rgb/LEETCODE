@@ -2,7 +2,7 @@
 
 ## 📌 Problem
 
-**LeetCode Problem:** [292. Nim Game](https://leetcode.com/problems/nim-game/)
+**LeetCode Problem:** [Nim Game](https://leetcode.com/problems/nim-game/)
 
 ## 📝 Description
 
