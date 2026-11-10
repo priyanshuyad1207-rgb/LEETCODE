@@ -14,13 +14,11 @@ public:
             }
             else if(matrix[row_index][coloum_index]>target){
                 end=mid-1;
-
             }
             else{
                 start=mid+1;
             }
-        }
-        
+        }    
         return false;
     }
 };
